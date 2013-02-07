@@ -1,0 +1,8 @@
+{
+  "name": 		 "metro-ui",
+  "description": "Metro UI repackaged for Meteor",
+  "homepage": 	 "https://github.com/gogoromat/meteor-metro-ui",
+  "author": 	 "GogromaT <gogromat@gmail.com>",
+  "version": 	 "0.0.1",
+  "git": 		 "https://github.com/gogromat/meteor-metro-ui.git"
+}
