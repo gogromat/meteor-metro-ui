@@ -1,6 +1,6 @@
 {
-  "name": 		 "metro-ui",
-  "description": "Metro UI repackaged for Meteor",
+  "name": 		 "metro-ui-css",
+  "description": "Metro UI CSS repackaged for Meteor",
   "homepage": 	 "https://github.com/gogoromat/meteor-metro-ui",
   "author": 	 "GogromaT <gogromat@gmail.com>",
   "version": 	 "0.0.1",
