@@ -3,28 +3,29 @@ Package.describe({
 });
 
 Package.on_use(function(api) {
-	api.use('jquery', 'client');
+	//api.use('jquery', 'client');
 	api.add_files([
-		'metroui/css/modern.css',
-		'metroui/css/modern-responsive.css',
+		'metrouicss/css/modern.css',
+		'metrouicss/css/modern-responsive.css',
 
-		'metroui/javascript/dropdown.js', 
-		'metroui/javascript/accordion.js', 
-		'metroui/javascript/buttonset.js', 
-		'metroui/javascript/carousel.js', 
-		'metroui/javascript/input-control.js', 
-		'metroui/javascript/pagecontrol.js', 
-		'metroui/javascript/rating.js', 
-		'metroui/javascript/slider.js', 
-		'metroui/javascript/dialog.js', 
-		'metroui/javascript/tile-slider.js', 
-		'metroui/javascript/tile-drag.js', 
-		//'metroui/public/js/assets/jquery.mousewheel.min.js',
-		//'metroui/javascript/start-menu.js',
-		//'metroui/public/js/modern/dropdown.js'
+		'metrouicss/public/js/assets/jquery-1.9.0.min.js',
+		'metrouicss/javascript/dropdown.js', 
+		'metrouicss/javascript/accordion.js', 
+		'metrouicss/javascript/buttonset.js', 
+		'metrouicss/javascript/carousel.js', 
+		'metrouicss/javascript/input-control.js', 
+		'metrouicss/javascript/pagecontrol.js', 
+		'metrouicss/javascript/rating.js', 
+		'metrouicss/javascript/slider.js', 
+		'metrouicss/javascript/dialog.js', 
+		'metrouicss/javascript/tile-slider.js', 
+		'metrouicss/javascript/tile-drag.js',
+
+		//'metrouicss/public/js/assets/jquery.mousewheel.min.js',
+		//'metrouicss/javascript/start-menu.js',
 		]
 		, 'client');
 
-	//api.add_files(['metroui/css/theme-dark.css'], 'client');
+	//api.add_files(['metrouicss/css/theme-dark.css'], 'client');
 
 });
