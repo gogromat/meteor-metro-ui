@@ -1,0 +1,15 @@
+/* 
+ * XXX Hack to make metrouicss work when bundled. This needs to be included
+ * _after_ the standard metrouicss css files.
+ *
+ * After being bundled, all CSS is minified and served from the "/" dir.
+ * Thus, we need to provide absolute paths to the icons here.
+ */
+
+ @font-face {
+  font-family: 'iconFont';
+  src: url('/packages/metrouicss/fonts/iconFont.eot');
+  src: url('/packages/metrouicss/fonts/iconFont.eot?#iefix') format('embedded-opentype'), url('/packages/metrouicss/fonts/iconFont.svg#iconFont') format('svg'), url('/packages/metrouicss/fonts/iconFont.woff') format('woff'), url('/packages/metrouicss/fonts/iconFont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
