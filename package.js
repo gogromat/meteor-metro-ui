@@ -5,8 +5,8 @@ Package.describe({
 Package.on_use(function (api) {
 	// CSS FILES
 	//'metrouicss/css/theme-dark.css',
-	api.add_files('metrouicss2/css/modern.css', 			 				'client');
-	api.add_files('metrouicss2/css/modern-responsive.css',				'client');
+	api.add_files('css/modern.css', 'client');
+	api.add_files('css/modern-responsive.css', 'client');
 
 	// JAVASCRIPT
 	//'metrouicss/public/js/assets/jquery.mousewheel.min.js',
@@ -26,8 +26,8 @@ Package.on_use(function (api) {
 	api.add_files('metrouicss2/javascript/tile-drag.js', 				'client');
 
 	// FONTS
-	api.add_files('fonts/iconFont.woff','client');
-	api.add_files('fonts/iconFont.eot','client');
-	api.add_files('fonts/iconFont.ttf','client');
-	api.add_files('fonts/iconFont.svg','client');
+	api.add_files('fonts/iconFont.woff', 'client');
+	api.add_files('fonts/iconFont.eot', 'client');
+	api.add_files('fonts/iconFont.ttf', 'client');
+	api.add_files('fonts/iconFont.svg', 'client');
 });
