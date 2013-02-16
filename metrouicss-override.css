@@ -8,8 +8,8 @@
 
  @font-face {
   font-family: 'iconFont';
-  src: url('/packages/metrouicss/fonts/iconFont.eot');
-  src: url('/packages/metrouicss/fonts/iconFont.eot?#iefix') format('embedded-opentype'), url('/packages/metrouicss/fonts/iconFont.svg#iconFont') format('svg'), url('/packages/metrouicss/fonts/iconFont.woff') format('woff'), url('/packages/metrouicss/fonts/iconFont.ttf') format('truetype');
+  src: url('/packages/metrouicss/metrouicss/fonts/iconFont.eot');
+  src: url('/packages/metrouicss/metrouicss/fonts/iconFont.eot?#iefix') format('embedded-opentype'), url('/packages/metrouicss/metrouicss/fonts/iconFont.svg#iconFont') format('svg'), url('/packages/metrouicss/metrouicss/fonts/iconFont.woff') format('woff'), url('/packages/metrouicss/metrouicss/fonts/iconFont.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
