@@ -19,7 +19,7 @@ Package.on_use(function(api) {
 
 		// JAVASCRIPT
 		'metrouicss/public/js/assets/jquery-1.9.0.min.js',
-		'metrouicss/public/css/prettify.css',
+		//'metrouicss/public/css/prettify.css',
 		'metrouicss/javascript/dropdown.js', 
 		'metrouicss/javascript/accordion.js', 
 		'metrouicss/javascript/buttonset.js', 
