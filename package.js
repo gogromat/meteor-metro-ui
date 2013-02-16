@@ -5,29 +5,29 @@ Package.describe({
 Package.on_use(function (api) {
 	// CSS FILES
 	//'metrouicss/css/theme-dark.css',
-	api.add_files('metrouicss/css/modern.css', 			 				'client');
-	api.add_files('metrouicss/css/modern-responsive.css',				'client');
+	api.add_files('metrouicss2/css/modern.css', 			 				'client');
+	api.add_files('metrouicss2/css/modern-responsive.css',				'client');
 
 	// JAVASCRIPT
 	//'metrouicss/public/js/assets/jquery.mousewheel.min.js',
 	//'metrouicss/javascript/start-menu.js',], 'client');
 		//'metrouicss/public/css/prettify.css',
-	api.add_files('metrouicss/public/js/assets/jquery-1.9.0.min.js', 	'client');
-	api.add_files('metrouicss/javascript/dropdown.js', 			  		'client');
-	api.add_files('metrouicss/javascript/accordion.js', 				'client');
-	api.add_files('metrouicss/javascript/buttonset.js', 				'client');
+	api.add_files('metrouicss2public/js/assets/jquery-1.9.0.min.js', 	'client');
+	api.add_files('metrouicss2/javascript/dropdown.js', 			  		'client');
+	api.add_files('metrouicss2/javascript/accordion.js', 				'client');
+	api.add_files('metrouicss2/javascript/buttonset.js', 				'client');
 		//'metrouicss/javascript/carousel.js', 
-	api.add_files('metrouicss/javascript/input-control.js', 			'client');
-	api.add_files('metrouicss/javascript/pagecontrol.js', 				'client');
+	api.add_files('metrouicss2/javascript/input-control.js', 			'client');
+	api.add_files('metrouicss2/javascript/pagecontrol.js', 				'client');
 		//'metrouicss/javascript/rating.js', 
 		//'metrouicss/javascript/slider.js', 
-	api.add_files('metrouicss/javascript/dialog.js', 					'client');
-	api.add_files('metrouicss/javascript/tile-slider.js', 				'client');
-	api.add_files('metrouicss/javascript/tile-drag.js', 				'client');
-	
+	api.add_files('metrouicss2/javascript/dialog.js', 					'client');
+	api.add_files('metrouicss2/javascript/tile-slider.js', 				'client');
+	api.add_files('metrouicss2/javascript/tile-drag.js', 				'client');
+
 	// FONTS
-	api.add_files('metrouicss/fonts/iconFont.woff', 					'client');
-	api.add_files('metrouicss/fonts/iconFont.eot', 						'client');
-	api.add_files('metrouicss/fonts/iconFont.ttf', 						'client');
-	api.add_files('metrouicss/fonts/iconFont.svg', 						'client');
+	api.add_files('metrouicss2/fonts/iconFont.woff', 					'client');
+	api.add_files('metrouicss2/fonts/iconFont.eot', 						'client');
+	api.add_files('metrouicss2/fonts/iconFont.ttf', 						'client');
+	api.add_files('metrouicss2/fonts/iconFont.svg', 						'client');
 });
