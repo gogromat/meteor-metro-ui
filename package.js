@@ -16,7 +16,7 @@ Package.on_use(function (api) {
 	api.add_files('metrouicss/javascript/dropdown.js', 'client');
 	api.add_files('metrouicss/javascript/accordion.js','client');
 	api.add_files('metrouicss/javascript/buttonset.js','client');
-		//'metrouicss/javascript/carousel.js', 
+	api.add_files('metrouicss/javascript/carousel.js', 'client'); 
 	api.add_files('metrouicss/javascript/input-control.js','client');
 	api.add_files('metrouicss/javascript/pagecontrol.js','client');
 		//'metrouicss/javascript/rating.js', 
