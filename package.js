@@ -1,40 +1,33 @@
 Package.describe({
-	summary : "Metro UI repackaged for Meteor"
+  summary : "Metro UI repackaged for Meteor"
 });
 
-Package.on_use(function(api) {
-	//api.use('jquery', 'client');
-	api.add_files([
+Package.on_use(function (api) {
+	// CSS FILES
+	//'metrouicss/css/theme-dark.css',
+	api.add_files('metrouicss/css/modern.css', 			 				'client');
+	api.add_files('metrouicss/css/modern-responsive.css',				'client');
 
-		// CSS FILES
-		'metrouicss/css/modern.css',
-		'metrouicss/css/modern-responsive.css',
-		//'metrouicss/css/theme-dark.css',
-
-		// FONTS
-		'metrouicss/fonts/iconFont.woff',
-		'metrouicss/fonts/iconFont.eot',
-		'metrouicss/fonts/iconFont.ttf',
-		'metrouicss/fonts/iconFont.svg',
-
-		// JAVASCRIPT
-		'metrouicss/public/js/assets/jquery-1.9.0.min.js',
+	// JAVASCRIPT
+	//'metrouicss/public/js/assets/jquery.mousewheel.min.js',
+	//'metrouicss/javascript/start-menu.js',], 'client');
 		//'metrouicss/public/css/prettify.css',
-		'metrouicss/javascript/dropdown.js', 
-		'metrouicss/javascript/accordion.js', 
-		'metrouicss/javascript/buttonset.js', 
+	api.add_files('metrouicss/public/js/assets/jquery-1.9.0.min.js', 	'client');
+	api.add_files('metrouicss/javascript/dropdown.js', 			  		'client');
+	api.add_files('metrouicss/javascript/accordion.js', 				'client');
+	api.add_files('metrouicss/javascript/buttonset.js', 				'client');
 		//'metrouicss/javascript/carousel.js', 
-		'metrouicss/javascript/input-control.js', 
-		'metrouicss/javascript/pagecontrol.js', 
+	api.add_files('metrouicss/javascript/input-control.js', 			'client');
+	api.add_files('metrouicss/javascript/pagecontrol.js', 				'client');
 		//'metrouicss/javascript/rating.js', 
 		//'metrouicss/javascript/slider.js', 
-		'metrouicss/javascript/dialog.js', 
-		'metrouicss/javascript/tile-slider.js', 
-		'metrouicss/javascript/tile-drag.js',
-
-		//'metrouicss/public/js/assets/jquery.mousewheel.min.js',
-		//'metrouicss/javascript/start-menu.js',
-		]
-		, 'client');
-
+	api.add_files('metrouicss/javascript/dialog.js', 					'client');
+	api.add_files('metrouicss/javascript/tile-slider.js', 				'client');
+	api.add_files('metrouicss/javascript/tile-drag.js', 				'client');
+	
+	// FONTS
+	api.add_files('metrouicss/fonts/iconFont.woff', 					'client');
+	api.add_files('metrouicss/fonts/iconFont.eot', 						'client');
+	api.add_files('metrouicss/fonts/iconFont.ttf', 						'client');
+	api.add_files('metrouicss/fonts/iconFont.svg', 						'client');
 });
