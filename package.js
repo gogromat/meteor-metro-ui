@@ -9,7 +9,7 @@ Package.on_use(function(api) {
 		// CSS FILES
 		'metrouicss/css/modern.css',
 		'metrouicss/css/modern-responsive.css',
-		//'metrouicss/css/theme-dark.css',//
+		//'metrouicss/css/theme-dark.css',
 
 		// FONTS
 		'metrouicss/fonts/iconFont.woff',
@@ -36,7 +36,5 @@ Package.on_use(function(api) {
 		//'metrouicss/javascript/start-menu.js',
 		]
 		, 'client');
-
-	//api.add_files(['metrouicss/css/theme-dark.css'], 'client');
 
 });
