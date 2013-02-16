@@ -12,7 +12,7 @@ Package.on_use(function (api) {
 	//'metrouicss/public/js/assets/jquery.mousewheel.min.js',
 	//'metrouicss/javascript/start-menu.js',], 'client');
 		//'metrouicss/public/css/prettify.css',
-	api.add_files('metrouicss2public/js/assets/jquery-1.9.0.min.js', 	'client');
+	api.add_files('metrouicss2/public/js/assets/jquery-1.9.0.min.js', 	'client');
 	api.add_files('metrouicss2/javascript/dropdown.js', 			  		'client');
 	api.add_files('metrouicss2/javascript/accordion.js', 				'client');
 	api.add_files('metrouicss2/javascript/buttonset.js', 				'client');
