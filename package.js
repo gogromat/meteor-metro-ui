@@ -26,8 +26,8 @@ Package.on_use(function (api) {
 	api.add_files('metrouicss2/javascript/tile-drag.js', 				'client');
 
 	// FONTS
-	api.add_files('metrouicss2/fonts/iconFont.woff', 					'client');
-	api.add_files('metrouicss2/fonts/iconFont.eot', 						'client');
-	api.add_files('metrouicss2/fonts/iconFont.ttf', 						'client');
-	api.add_files('metrouicss2/fonts/iconFont.svg', 						'client');
+	api.add_files('fonts/iconFont.woff','client');
+	api.add_files('fonts/iconFont.eot','client');
+	api.add_files('fonts/iconFont.ttf','client');
+	api.add_files('fonts/iconFont.svg','client');
 });
